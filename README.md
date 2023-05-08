@@ -7,8 +7,8 @@ In "Smartli Backup," you can create multiple plans to backup different directori
 Visit also our website at https://smartli.me
 
 ## System Requirements
-Windows 10 or 11
-Net Framework 4.7.2
+- Windows 10 or 11
+- Net Framework 4.7.2
 
 ## Download
 Download the latest version here: https://smartli.me/p/7t
