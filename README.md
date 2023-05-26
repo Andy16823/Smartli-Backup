@@ -4,7 +4,7 @@
 
 In "Smartli Backup," you can create multiple plans to backup different directories and files. Each of these plans has a "schedule" function that indicates when a new backup should be created. If a time period has elapsed, the backup is not automatically created; instead, a dialog box is opened that informs you that a new backup should be created. You then have the option to perform the update or not. Additionally, you can export individual update plans to have all updates in one place.
 
-Visit also our website at https://smartli.me
+Visit also our website at https://backup.smartli.me/
 
 ## System Requirements
 - Windows 10 or 11
