@@ -7,7 +7,13 @@
     <Compile Update="CreateBackupPlan.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ExportEncryptedArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ImportEncryptedArchive.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RestoreBackup.cs">

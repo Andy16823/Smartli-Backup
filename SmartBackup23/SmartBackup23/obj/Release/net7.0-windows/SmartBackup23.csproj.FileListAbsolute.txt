@@ -19,3 +19,5 @@ C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windo
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windows\SmartBackup23.pdb
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windows\SmartBackup23.genruntimeconfig.cache
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windows\ref\SmartBackup23.dll
+C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windows\SmartBackup23.ExportEncryptedArchive.resources
+C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Release\net7.0-windows\SmartBackup23.ImportEncryptedArchive.resources

@@ -45,7 +45,9 @@
             toolStripSeparator2 = new ToolStripSeparator();
             showBackupFilesToolStripMenuItem = new ToolStripMenuItem();
             exportBackupsToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
             importBackupsToolStripMenuItem = new ToolStripMenuItem();
+            importDecryptToolStripMenuItem = new ToolStripMenuItem();
             imageList1 = new ImageList(components);
             tableLayoutPanel2 = new TableLayoutPanel();
             button5 = new Button();
@@ -57,6 +59,8 @@
             pictureBox1 = new PictureBox();
             progressBar1 = new ProgressBar();
             timer1 = new System.Windows.Forms.Timer(components);
+            toolStripSeparator3 = new ToolStripSeparator();
+            toolStripSeparator4 = new ToolStripSeparator();
             tableLayoutPanel1.SuspendLayout();
             contextMenuStrip1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -122,61 +126,75 @@
             // 
             // contextMenuStrip1
             // 
-            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { createBackupToolStripMenuItem, toolStripSeparator1, restoreBackupToolStripMenuItem, deletePlanToolStripMenuItem, toolStripSeparator2, showBackupFilesToolStripMenuItem, exportBackupsToolStripMenuItem, importBackupsToolStripMenuItem });
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { createBackupToolStripMenuItem, toolStripSeparator1, restoreBackupToolStripMenuItem, deletePlanToolStripMenuItem, toolStripSeparator2, showBackupFilesToolStripMenuItem, toolStripSeparator3, exportBackupsToolStripMenuItem, toolStripMenuItem1, toolStripSeparator4, importBackupsToolStripMenuItem, importDecryptToolStripMenuItem });
             contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(172, 148);
+            contextMenuStrip1.Size = new Size(181, 226);
             // 
             // createBackupToolStripMenuItem
             // 
             createBackupToolStripMenuItem.Name = "createBackupToolStripMenuItem";
-            createBackupToolStripMenuItem.Size = new Size(171, 22);
+            createBackupToolStripMenuItem.Size = new Size(180, 22);
             createBackupToolStripMenuItem.Text = "Create Backup";
             createBackupToolStripMenuItem.Click += createBackupToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(168, 6);
+            toolStripSeparator1.Size = new Size(177, 6);
             // 
             // restoreBackupToolStripMenuItem
             // 
             restoreBackupToolStripMenuItem.Name = "restoreBackupToolStripMenuItem";
-            restoreBackupToolStripMenuItem.Size = new Size(171, 22);
+            restoreBackupToolStripMenuItem.Size = new Size(180, 22);
             restoreBackupToolStripMenuItem.Text = "Restore Backup";
             restoreBackupToolStripMenuItem.Click += restoreBackupToolStripMenuItem_Click;
             // 
             // deletePlanToolStripMenuItem
             // 
             deletePlanToolStripMenuItem.Name = "deletePlanToolStripMenuItem";
-            deletePlanToolStripMenuItem.Size = new Size(171, 22);
+            deletePlanToolStripMenuItem.Size = new Size(180, 22);
             deletePlanToolStripMenuItem.Text = "Delete Plan";
             deletePlanToolStripMenuItem.Click += deletePlanToolStripMenuItem_Click;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(168, 6);
+            toolStripSeparator2.Size = new Size(177, 6);
             // 
             // showBackupFilesToolStripMenuItem
             // 
             showBackupFilesToolStripMenuItem.Name = "showBackupFilesToolStripMenuItem";
-            showBackupFilesToolStripMenuItem.Size = new Size(171, 22);
+            showBackupFilesToolStripMenuItem.Size = new Size(180, 22);
             showBackupFilesToolStripMenuItem.Text = "Show Backup Files";
             showBackupFilesToolStripMenuItem.Click += showBackupFilesToolStripMenuItem_Click;
             // 
             // exportBackupsToolStripMenuItem
             // 
             exportBackupsToolStripMenuItem.Name = "exportBackupsToolStripMenuItem";
-            exportBackupsToolStripMenuItem.Size = new Size(171, 22);
+            exportBackupsToolStripMenuItem.Size = new Size(180, 22);
             exportBackupsToolStripMenuItem.Text = "Export Backups";
             exportBackupsToolStripMenuItem.Click += exportBackupsToolStripMenuItem_Click;
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(180, 22);
+            toolStripMenuItem1.Text = "Export && Encrypt";
+            toolStripMenuItem1.Click += toolStripMenuItem1_Click;
             // 
             // importBackupsToolStripMenuItem
             // 
             importBackupsToolStripMenuItem.Name = "importBackupsToolStripMenuItem";
-            importBackupsToolStripMenuItem.Size = new Size(171, 22);
+            importBackupsToolStripMenuItem.Size = new Size(180, 22);
             importBackupsToolStripMenuItem.Text = "Import Backups";
             importBackupsToolStripMenuItem.Click += importBackupsToolStripMenuItem_Click;
+            // 
+            // importDecryptToolStripMenuItem
+            // 
+            importDecryptToolStripMenuItem.Name = "importDecryptToolStripMenuItem";
+            importDecryptToolStripMenuItem.Size = new Size(180, 22);
+            importDecryptToolStripMenuItem.Text = "Import && Decrypt";
+            importDecryptToolStripMenuItem.Click += importDecryptToolStripMenuItem_Click;
             // 
             // imageList1
             // 
@@ -317,6 +335,16 @@
             timer1.Interval = 900000;
             timer1.Tick += timer1_Tick;
             // 
+            // toolStripSeparator3
+            // 
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new Size(177, 6);
+            // 
+            // toolStripSeparator4
+            // 
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new Size(177, 6);
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -365,5 +393,9 @@
         private ProgressBar progressBar1;
         private ImageList imageList1;
         private System.Windows.Forms.Timer timer1;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem importDecryptToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator3;
+        private ToolStripSeparator toolStripSeparator4;
     }
 }

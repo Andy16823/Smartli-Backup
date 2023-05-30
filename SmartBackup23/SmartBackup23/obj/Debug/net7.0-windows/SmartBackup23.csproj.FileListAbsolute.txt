@@ -19,3 +19,5 @@ C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows\SmartBackup23.Properties.Resources.resources
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows\SmartBackup23.CreateBackupPlan.resources
 C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows\SmartBackup23.RestoreBackup.resources
+C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows\SmartBackup23.ExportEncryptedArchive.resources
+C:\Users\andy1\source\repos\SmartBackup23\SmartBackup23\obj\Debug\net7.0-windows\SmartBackup23.ImportEncryptedArchive.resources

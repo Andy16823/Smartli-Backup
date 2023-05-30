@@ -608,7 +608,7 @@ namespace SmartBackup23
         /// Import the given archive
         /// </summary>
         /// <param name="archiveName"></param>
-        private void ImportBackupPlanArchiveAsync(string archiveName)
+        public static void ImportBackupPlanArchiveAsync(string archiveName)
         {
             // Get File info and pathes
             FileInfo fileInfo = new FileInfo(archiveName);
@@ -658,6 +658,26 @@ namespace SmartBackup23
         private void timer1_Tick(object sender, EventArgs e)
         {
             this.LoadBackups();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (this.listView1.SelectedItems.Count > 0)
+            {
+                String plan = this.listView1.SelectedItems[0].Text;
+                ExportEncryptedArchive export = new ExportEncryptedArchive(plan);
+                export.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select the plan to export");
+            }
+        }
+
+        private void importDecryptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ImportEncryptedArchive import = new ImportEncryptedArchive(this);
+            import.Show();
         }
     }
 }
